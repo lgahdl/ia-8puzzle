@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "ts-build",
+    "lib":["dom","es2017"],
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+} 
